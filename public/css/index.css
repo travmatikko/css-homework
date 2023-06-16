@@ -1,7 +1,61 @@
-html {
-  max-width: 720px;
+p{
+
+}
+.card > p{
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 2px blue;
 }
 
-body {
-  background: #fff;
+p:focus,
+p:active,
+p:hover{
+  -webkit-text-fill-color: rgb(238, 255, 0);
+  -webkit-text-stroke: 2px rgb(235, 50, 127);
+
+  direction: rtl;
+}
+
+#test{
+  color: initial;
+  -webkit-text-fill-color: initial;
+  -webkit-text-stroke: initial;
+}
+
+*{
+  font-family: 'Roboto', Arial,fantasy;
+  font-size: 18px;
+  font-weight: 900;
+  font-display: swap;
+}
+
+span{
+  font-size: larger;
+
+  font-weight: 900;
+}
+
+.test {
+  font-weight: lighter;
+}
+
+p{
+  font-stretch: expanded;
+}
+
+.test{
+  display: none;
+}
+
+.block{
+  display:inline-block;
+  background: rgb(219, 204, 204);
+  margin: auto;
+
+  width: 100%;
+  
+
+  padding: 10px;
+
+
 }

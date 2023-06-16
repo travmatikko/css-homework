@@ -1,0 +1,201 @@
+/* :root {
+  background: purple;
+}
+html {
+  max-width: 720px;
+}
+
+body {
+  background: #503d3d;
+}
+
+
+
+h1 {color: green;}
+
+.box {
+  background-color: #9c6363;
+}
+
+
+
+h1,h2#user,button.button#button{color: rgb(33, 219, 27);}
+
+.button{background-color: red;}
+#user {
+  color:blue
+}
+div > p {
+  color: rgb(112, 98, 76);
+}
+
+footer em {color: rgb(24, 211, 183);} */
+
+.card-dark {
+  background:#ddbdbd;
+}
+
+.item {
+  color:rgb(9, 238, 47);
+}
+
+.item:first-of-type{
+  color: rgb(7, 22, 226);
+}
+
+.item:only-of-type{
+  color: red;
+}
+
+.item:nth-child(3n+2) {
+  color: rgb(255, 102, 0);
+}
+
+p:empty {
+  height: 10px;
+  background: red;
+  color: rgb(20, 107, 74);
+}
+
+.input-dark {
+  background:#777474;
+}
+
+.input-dark[required] {
+  background:#ff0000;
+}
+
+.input-dark[type='number'] {
+  background:#2cff01;
+}
+
+.small-img[alt~="small"] {
+height: 500px;
+}
+
+a[rel~='external']{
+  color: rgb(8, 153, 15);
+}
+button[class|="btn"]{
+  background: orange;
+}
+
+a[class*="btn"]{
+  background: rgb(196, 172, 178);
+}
+
+a[class$="big"]{
+  background: hsla(0, 81%, 70%, 0.863);
+}
+
+.btn::first-letter{
+  color: red;
+}
+
+.big-text::first-line{
+  color: red;
+}
+
+.input-dark::placeholder{
+  color: green;
+  background: blue;
+}
+
+.big-text::before{
+  content: 'Підараст';
+  color: #2cff01;
+}
+
+.big-text::after{
+  content: 'Підараст';
+  color: #0c666d;
+}
+
+
+#test:target{
+  color: red;
+}
+
+.link:link{
+  color: red;
+}
+
+.link:hover{
+  color: rgb(8, 23, 73);
+}
+
+.card:hover{
+  background: rgb(60, 255, 0);
+}
+
+.link:active{
+  color: rgb(226, 181, 195);
+}
+
+input{
+  background: grey;
+}
+
+input:focus{
+  background: rgb(160, 200, 216);
+}
+
+.card:focus-within{
+  background: rgb(19, 175, 202);
+}
+
+.card:lang(en) > span:after{
+content: "(en)";
+}
+
+button{
+  background: #3cd13c;
+}
+
+button:enabled{
+  background: #d5e9d5;
+}
+
+button:disabled{
+  background: #e2ece2;
+}
+
+.inp:read-write{
+  background: #3cd13c;
+}
+
+.inp:read-only{
+  background: #3cd13c;
+}
+
+input[type="checkbox"]:checked ~ span {
+  background: rgb(204, 77, 77);
+}
+
+.valid:valid{
+  background: yellow;
+}
+
+.valid:invalid{
+  background: rgb(76, 228, 170);
+}
+
+.valid:optional{
+  background: rgb(0, 255, 157);
+}
+
+.number:focus{
+  background: rgb(34, 112, 201);
+}
+
+.number:out-of-range{
+  background: red;
+}
+
+.number:in-range{
+  background: rgb(97, 223, 86);
+}
+
+input:placeholder-shown{
+  background: rgb(250, 13, 53);
+}
