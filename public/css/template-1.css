@@ -11,6 +11,7 @@
 
 .header{
     padding: 21px;
+    border-bottom: 1px solid #bb8d8d;
 }
 
 .logo{
@@ -62,6 +63,8 @@ display: block;
 
 .footer{
     padding: 24px 0;
+
+    border-top: 1px solid #ff0707;
 }
 
 .footer_copyright{
@@ -92,6 +95,7 @@ display: block;
     text-align: center;
     max-width: 585px;
     margin: 0 auto;
+    line-height: 150%;
 }
 
 .plans_card:not(:last-of-type){
@@ -118,6 +122,7 @@ color: #000000;
 .card_price_duration{
     font-size: 29px;
     color: #928e8e;
+    vertical-align: sub;
 }
 
 .card_block{
@@ -144,5 +149,64 @@ color: #000000;
     width: 100%;
     font-size: 19px;
     padding: 9px;
+    
 }
 
+
+
+.card:hover{
+    outline:2px solid red;
+    outline-offset: 5px;
+    box-shadow: 0px 0px 10px rgb(207, 115, 10) ;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 10px rgb(9, 255, 9) ;
+}
+
+h1{
+    text-shadow: 2px 2px 2px red;
+}
+
+.card {
+    border:5px solid rgb(247, 70, 0);
+    border-radius: 0px 50px;
+    box-shadow: 0px 0px 10px rgb(155, 240, 218) ;
+}
+
+.plans_card:nth-child(2){
+visibility: hidden;
+}
+
+.hero_text{
+    background: grey;
+
+    max-width: 250px;
+    width: 100px;
+    hyphens: manual;
+    
+    overflow: auto;
+    resize: both;
+    word-spacing: 4px;
+
+    
+}
+
+.overflow{
+    overflow-wrap: anywhere;
+}
+
+p{
+background: grey;
+width: 200px;
+height: 100px;
+
+}
+
+
+    
