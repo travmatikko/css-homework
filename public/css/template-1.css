@@ -208,5 +208,94 @@ height: 100px;
 
 }
 
+/* body{
+    background-image: red;
+} */
+
+/* .page{
+    
+    background-image: url('/img/test2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+
+.page_block{
+    background-color: transparent;
+}
+
+.hero_text{
+    padding: auto;
+    color: #FFFFFF;
+    border-image-source:url('/img/test2.png');
+    border-image-width: 25%;
+    border-image-slice: 20%;
+    border-image-repeat: space;
+    border-image-outset: 40px;   
+}
+
+.card_block{
+    /* list-style-type: disc; */
+    list-style-position: inside;
+
+    list-style-image: linear-gradient(
+        to bottom right,
+        blue,
+        red
+    );
+    padding: 0;
+}
+
+.card_description_item{
+    display: list-item;
+}
+
+ /* .table tr{
+    border: 1px solid black;
+ } */
+
+
+
+ .table tr td{
+    border: 1px solid rgb(110, 85, 85);
+    border-bottom-color: red;
+    border-right-color: blue;
+ }
+
+ .table{
+    table-layout: auto;
+    width: 200px;
+
+    border-collapse: unset;
+
+    border-spacing: 10px;
+
+    caption-side: top;
+
+    empty-cells: hide;
+ }
+
+ .nav_link::before,
+ .nav_link::after{
+    /* content: url('/img/test2.png'); */
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/test2.png') ;
+ }
+
+ .nav_link::before{
+    margin-right: 15px;
+ }
+ 
+ .nav_link::after{
+    margin-left: 15px;
+
+}
+ 
+
 
     
