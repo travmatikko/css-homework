@@ -427,20 +427,7 @@ router.get('/template-2', function (req, res) {
 })
 
 // ================================================================
-// ================================================================
 
-// router.get Створює нам один ентпоїнт
-
-//           ↙ тут вводимо шлях (PATH) до сторінки
-router.get('/', function (req, res) {
-  // res.render генерує нам HTML сторінку
-
-  //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index', {})
-  //                  ↑↑ сюди вводимо JSON дані
-})
-
-// ================================================================
 // ================================================================
 
 // router.get Створює нам один ентпоїнт
@@ -451,10 +438,10 @@ router.get('/template-3', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('template-3', {
+    layout: 'template-3',
     page: {
       title: 'Example Page',
     },
-    layout: 'template-3',
 
     header: [
       {
@@ -801,6 +788,18 @@ router.get('/template-5', function (req, res) {
     },
 
     advantages: [
+      {
+        title: '24/7 Availability',
+        text: 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.',
+      },
+      {
+        title: '10 Years of Expertise',
+        text: 'Fill out all required fields using real data on the checkout page.',
+      },
+      {
+        title: 'Loyalty Program',
+        text: 'While you were paying, we had already prepared access to our Member Area, where you can read more about the status of your order.',
+      },
       {
         title: '24/7 Availability',
         text: 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.',
